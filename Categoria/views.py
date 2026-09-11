@@ -7,7 +7,7 @@ def home(request):
 
 
 def api_category(request):
-    categorys= Category.objects.all()
+    categorys= Category.objects.all()   
     data = []
 
     for category in categorys:
